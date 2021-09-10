@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Year Checker - </title>
+</head>
+<body>
+    Hi buddy, checking for new year right
+
+    {% if day == 1 and month == 1 %}
+        <h1> Yes, its New Year</h1>
+    {% else %}
+        <h1> No </h1>
+    {% endif %}
+
+    <h2>Date: {{ day }} / {{ month }} / {{ year }}</h2>
+
+    <h2>The time is: {{ time }} </h2>
+</body>
+</html>
